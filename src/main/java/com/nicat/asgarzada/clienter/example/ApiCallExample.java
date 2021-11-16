@@ -1,8 +1,8 @@
-package com.nicat.asgarzada.example;
+package com.nicat.asgarzada.clienter.example;
 
-import com.nicat.asgarzada.http.HttpClient;
-import com.nicat.asgarzada.http.Method;
-import com.nicat.asgarzada.http.SslHelper;
+import com.nicat.asgarzada.clienter.http.HttpClient;
+import com.nicat.asgarzada.clienter.http.Method;
+import com.nicat.asgarzada.clienter.http.SslHelper;
 
 public class ApiCallExample {
     public static void main(String[] args) {

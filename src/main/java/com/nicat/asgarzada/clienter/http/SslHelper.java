@@ -1,4 +1,4 @@
-package com.nicat.asgarzada.http;
+package com.nicat.asgarzada.clienter.http;
 
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.HttpsURLConnection;

@@ -1,4 +1,4 @@
-package com.nicat.asgarzada.http;
+package com.nicat.asgarzada.clienter.http;
 
 import java.io.BufferedInputStream;
 import java.io.IOException;

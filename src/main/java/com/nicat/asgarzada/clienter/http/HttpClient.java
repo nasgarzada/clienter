@@ -1,4 +1,4 @@
-package com.nicat.asgarzada.http;
+package com.nicat.asgarzada.clienter.http;
 
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -9,12 +9,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-import static com.nicat.asgarzada.http.Method.POST;
-import static com.nicat.asgarzada.http.Method.PUT;
-
 public class HttpClient {
     private final HttpURLConnection httpURLConnection;
-    private static final List<Method> bodyAllowedMethods = List.of(POST, PUT);
+    private static final List<Method> bodyAllowedMethods = List.of(Method.POST, Method.PUT);
 
     private HttpClient(String url) throws IOException {
         this.httpURLConnection = (HttpURLConnection) new URL(url).openConnection();
